@@ -14,7 +14,7 @@ use pocketmine\Item\Item;
 class Main extends PluginBase implements Listener{
 
 public function onEnable(){
-        $this->getserver()->getPluginManager()->registerEvents($this, $this);
+        $this->getserver()->getPluginManager()->registerEvents($this, 
 $this);       
         @mkdir($this->getDataFolder();
         $this->saveResource("config.yml");
