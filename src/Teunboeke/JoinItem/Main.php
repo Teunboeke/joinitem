@@ -15,7 +15,6 @@ class Main extends PluginBase implements Listener{
 
 public function onEnable(){
         $this->getserver()->getPluginManager()->registerEvents($this, $this);       
-        mkdir($this->getDataFolder());
         $this->saveResource("config.yml");
         $this->seveDefaultConfig();
 }
