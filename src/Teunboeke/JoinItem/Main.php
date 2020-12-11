@@ -3,10 +3,10 @@
 namespace Teunboeke\JoinItem;
 
 use pocketmine\plugin\PluginBase;
-use pocketmine\command\command;
+use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
-use pocketmine\server;
-use pocketmine\player;
+use pocketmine\Server;
+use pocketmine\Player;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\item\Item;
