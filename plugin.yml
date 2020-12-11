@@ -1,0 +1,5 @@
+name: JoinItem
+version: 1.0.0
+author: Teunboeke 
+main: Teunboeke\JoinItem\Main
+api: 3.0.0
