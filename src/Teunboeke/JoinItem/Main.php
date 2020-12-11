@@ -11,7 +11,7 @@ use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\item\Item;
 
-class main extends PluginBase implements Listener{
+class Main extends PluginBase implements Listener{
 
 public function onEnable(){
         $this->getserver()->getPluginManager()->registerEvents($this, $this);
