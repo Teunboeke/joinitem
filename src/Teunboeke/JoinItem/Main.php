@@ -2,13 +2,13 @@
 
 namespace Teunboeke\JoinItem;
 
-use pocketmine\plugin\PluginBase;
-use pocketmine\command\Command;
-use pocketmine\command\CommandSender;
+use pocketmine\Plugin\PluginBase;
+use pocketmine\Command\Command;
+use pocketmine\Command\CommandSender;
 use pocketmine\Server;
 use pocketmine\Player;
-use pocketmine\event\Listener;
-use pocketmine\event\player\PlayerJoinEvent;
+use pocketmine\Event\Listener;
+use pocketmine\Event\Player\PlayerJoinEvent;
 use pocketmine\item\Item;
 
 class Main extends PluginBase implements Listener{
