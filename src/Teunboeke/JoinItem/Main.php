@@ -36,7 +36,7 @@ if($this->getConfig()->exists($name)){
          $this->getConfig()->set($name, 0);
          $this->getConfig()->save();
          
-         $item = Item::get(1, 0, 1);
+         $item = Item::get(339, 1, 1);
          $item->setCustomName("§aSkyBlockUI");
          $player->getInventory()->setItem(0, $item);
                   }
