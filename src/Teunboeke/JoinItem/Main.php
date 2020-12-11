@@ -30,7 +30,7 @@ $player = $event->getPlayer();
 $name = $player->getname();
 
 if($this->getConfig()->exists($name)){
-         $this->getConfig()set($name, 1);
+         $this->getConfig()->set($name, 1);
          $this->getConfig()->save();
 }else{
          $this->getConfig()->set($name, 0);
