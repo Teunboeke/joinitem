@@ -22,7 +22,7 @@ $this);
 }
 
 public function onDisable(){
-  $this->getlogger()->info("ItemJoin by Teunboeke has been deactivated
+  $this->getlogger()->info("ItemJoin by Teunboeke has been deactivated");
 }
 
 public function onJoin(PlayerJoinEvent $event){
