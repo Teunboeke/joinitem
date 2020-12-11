@@ -27,7 +27,7 @@ public function onJoin(PlayerJoinEvent $event){
 $player = $event->getPlayer();
 $name = $player->getname();
                            
-         $item = Item::get(339, 1, 1);
+         $item = Item::get(399, 1, 1);
          $item->setCustomName("§aSkyBlockUI");
          $player->getInventory()->setItem(9, $item);
                   }
