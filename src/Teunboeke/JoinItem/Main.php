@@ -2,7 +2,7 @@
 
 namespace Teunboeke\JoinItem;
 
-use pocketmine\Plugin\PluginBase;
+use pocketmine\plugin\PluginBase;
 use pocketmine\Command\Command;
 use pocketmine\Command\CommandSender;
 use pocketmine\Server;
