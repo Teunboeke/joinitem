@@ -28,14 +28,7 @@ public function onJoin(PlayerJoinEvent $event){
 
 $player = $event->getPlayer();
 $name = $player->getname();
-
-if($this->getConfig()->exists($name)){
-         $this->getConfig()->set($name, 1);
-         $this->getConfig()->save();
-}else{
-         $this->getConfig()->set($name, 0);
-         $this->getConfig()->save();
-         
+                           
          $item = Item::get(339, 1, 1);
          $item->setCustomName("§aSkyBlockUI");
          $player->getInventory()->setItem(9, $item);
