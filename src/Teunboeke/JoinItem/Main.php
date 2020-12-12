@@ -9,7 +9,7 @@ use pocketmine\Server;
 use pocketmine\Player;
 use pocketmine\event\Listener;
 use pocketmine\event\Player\PlayerJoinEvent;
-use pocketmine\Item\Item;
+use pocketmine\item\Item;
 
 class Main extends PluginBase implements Listener{
 
