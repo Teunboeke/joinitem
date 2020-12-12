@@ -25,22 +25,23 @@ public function onDisable(){
 
 public function onJoin(PlayerJoinEvent $event){
 
-$player = $event->getPlayer();
-$name = $player->getname();
-                           
+        $player = $event->getPlayer();
+        $name = $player->getname();       
          $item = Item::get(399, 0, 1);
          $item->setCustomName("§aSkyBlockUI");
          $player->getInventory()->setItem(8, $item);
          $command = "sbui" . $player->getname(). " 10";
+}
         
 public function onDrop(PlayerDropItemEvent $event){
         $item = $event->getItem();
         
         if($item->getId == 399){
              $event->setCancelled();                 
-                  }
-            }
-    
+        }
+}
+        
+}
 
 
 
