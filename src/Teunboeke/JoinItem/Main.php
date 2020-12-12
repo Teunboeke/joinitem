@@ -32,7 +32,7 @@ $name = $player->getname();
          $player->getInventory()->setItem(9, $item);
                   }
             }
-    }
+    
 
 
 
