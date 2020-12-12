@@ -7,8 +7,8 @@ use pocketmine\Command\Command;
 use pocketmine\Command\CommandSender;
 use pocketmine\Server;
 use pocketmine\Player;
-use pocketmine\Event\Listener;
-use pocketmine\Event\Player\PlayerJoinEvent;
+use pocketmine\event\Listener;
+use pocketmine\event\Player\PlayerJoinEvent;
 use pocketmine\Item\Item;
 
 class Main extends PluginBase implements Listener{
