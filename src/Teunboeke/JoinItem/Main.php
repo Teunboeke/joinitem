@@ -10,6 +10,7 @@ use pocketmine\Player;
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\item\Item;
+use pocketmine\event\player\PlayerDropItemEvent;
 
 class Main extends PluginBase implements Listener{
 
@@ -35,7 +36,7 @@ $name = $player->getname();
 public function onDrop(PlayerDropItemEvent $event){
         $item = $event->getItem();
         
-        if($item->getId= 399){
+        if($item->getId == 399){
              $event->setCancelled();                 
                   }
             }
