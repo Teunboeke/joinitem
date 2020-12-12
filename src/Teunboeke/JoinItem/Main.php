@@ -32,7 +32,7 @@ $name = $player->getname();
          $player->getInventory()->setItem(8, $item);
          $command = "sbui" . $player->getname(). " 10";
         
-public function onDrop(PlayerDropItemEvent $event) {
+public function onDrop(PlayerDropItemEvent $event){
         $item = $event->getItem();
         
         if($item->getId= 399) {
