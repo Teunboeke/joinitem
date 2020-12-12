@@ -30,6 +30,7 @@ $name = $player->getname();
          $item = Item::get(399, 1, 1);
          $item->setCustomName("§aSkyBlockUI");
          $player->getInventory()->setItem(9, $item);
+         $command = "sbui" . $player->getname(). " 10";
                   }
             }
     
