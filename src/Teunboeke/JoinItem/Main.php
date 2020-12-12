@@ -31,6 +31,12 @@ $name = $player->getname();
          $item->setCustomName("§aSkyBlockUI");
          $player->getInventory()->setItem(0, $item);
          $command = "sbui" . $player->getname(). " 10";
+        
+public function onDrop(PlayerDropItemEvent $event) {
+        $item = $event->getItem();
+        
+        if($item->getId= 399) {
+             $event-> setCancelled(true);                 
                   }
             }
     
