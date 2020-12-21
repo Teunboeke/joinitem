@@ -35,8 +35,7 @@ public function onJoin(PlayerJoinEvent $event){
         
 public function onDrop(PlayerDropItemEvent $event){
 {
-        $item = $event->getItem();
-        
+        $item = $event->getItem();        
         if($item->getId == 399){
              $event->setCancelled();                 
         }
