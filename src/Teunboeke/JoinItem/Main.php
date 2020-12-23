@@ -30,7 +30,7 @@ public function onJoin(PlayerJoinEvent $event){
          $item = Item::get(399, 0, 1);
          $item->setCustomName("§aSkyBlockUI");
          $player->getInventory()->setItem(8, $item);
-         $command = "sbui" . $player->getname(). " 10";
+         $command = "sbui" . $player->getname() . " 10";
 }
         
 public function onDrop(PlayerDropItemEvent $event){
